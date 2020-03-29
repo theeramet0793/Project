@@ -2,7 +2,7 @@
 #include<iomanip>
 using namespace std;
 
-void draw_map1(int i,int &price){
+void draw_map2(int i,int &price){
 	 if(i==0)cout<<"***************************";
 	 if(i==1)cout<<"* James Bond Island = "<<setw(10)<<price<<"  *";
 	 if(i==2)cout<<"***************************";
