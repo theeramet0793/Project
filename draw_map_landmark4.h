@@ -2,7 +2,7 @@
 #include<iomanip>
 using namespace std;
 
-void draw_map1(int i,int &price){
+void draw_map4(int i,int &price){
 	 if(i==0)cout<<"***************************";
 	 if(i==1)cout<<"* heaven arena = "<<setw(10)<<price<<"  *";
 	 if(i==2)cout<<"***************************";
@@ -15,7 +15,7 @@ void draw_map1(int i,int &price){
 	 if(i==9)cout<<"*        | "/    |        *";
 	if(i==10)cout<<"*       |=="======|       *"; 
 	if(i==11)cout<<"* _____|..........|~~~~~~~*";
-	if(i==12)cout<<"*| •  •|   [] []  | + + + *";
-	if(i==13)cout<<"*| •  •|   [] []   |+ + + *";
+	if(i==12)cout<<"*| â€¢  â€¢|   [] []  | + + + *";
+	if(i==13)cout<<"*| â€¢  â€¢|   [] []   |+ + + *";
 	if(i==14)cout<<"***************************";
 }
