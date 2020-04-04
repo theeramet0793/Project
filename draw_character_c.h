@@ -14,7 +14,7 @@ void draw_character_C(int i,int &price){
          if(i==8)cout<<"*   |  |   *****   |  | *";
          if(i==9)cout<<"*   |  | *  ***  * |  | *";
          if(i==10)cout<<"*  |  |____ *_____|  | *";
-         if(i==11)cout<<"* punch_____*____|punch*";
+         if(i==11)cout<<"* punch|____*____|punch*";
          if(i==12)cout<<"*        ||   ||       *";
          if(i==13)cout<<"*       foot  foot     *";
          if(i==14)cout<<"*************************";
